@@ -1,0 +1,34 @@
+.content{
+    max-width: 1600;
+    margin: 0 auto;
+}
+nav,a, .hero-msg h1, .hero-msg h4, .button-box, main, section{
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav:hover {
+    background-color: black;
+}
+nav:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+.icon {
+    width: 80px;
+}
+nav{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+footer h3 a:hover{
+    text-decoration: underline
+}
