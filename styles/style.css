@@ -13,20 +13,19 @@ body{
     max-width: 1600;
     margin: 0 auto;
 }
-nav,a, .hero-msg h1, .hero-msg h4, .button-box, main, section{
+nav, a, #hero-msg h1, #hero-msg h4, .button-box, main section{
     text-align: center;
+    color: tan;
 }
 #background {
     height: 725px;
+    background-color:tan;
 }
 body {
     background-color: #fcfbfb; 
 }
 header {
     background-color:rgba(20,30,13, .7);
-}
-nav:hover {
-    background-color: black;
 }
 nav:hover {
     background-color: black;
@@ -44,11 +43,11 @@ footer h3 a:hover{
     text-decoration: underline
 }
 .msg {
-    background-color: #44CCFF;
+    background-color: white;
     line-height: 1.5em;
   }
 body {
-    background-color: #44CCFF;
+    background-color: white;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 22px;
     margin: 0;
@@ -66,6 +65,8 @@ nav a, .msg{
 #logo_link{
     text-decoration: none;
     color: blue;
+    justify-self:center;
+    align-self: center;
     text-align: center;
     padding-top: 5px;
 }
@@ -138,14 +139,14 @@ nav {
     z-index: -1;
 }
 #hero-msg h4 {
-    color: white;
+    color: tan;
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
 }
-.card-img, .mountains {
+.card-img, .mountains{
     width: 100%;
 }
 footer {
@@ -155,6 +156,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color:tan;
 }
 .rivers-card{
     grid-column: 2/4;
@@ -242,4 +244,28 @@ footer {
     footer {
         margin-top: 25px;
     }
+}
+.rivers2{
+    border: 10px solid tan;
+}
+#rivers {
+    margin: auto;
+    margin-top: 150px;
+    padding: 10px;
+    background-color: white;
+    border: 10px solid tan;
+    text-align: left;
+}
+.home-grid{
+    display:grid;
+    grid-template-columns: 10fr 10fr 10fr;
+}
+.home-title, .button-box, .book, .msg{
+    color: tan;
+}
+#hero-img{
+    width: 100%;
+}
+.logo{
+    width: 80px;
 }
