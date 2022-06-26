@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300&display=swap');
+.home-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+head, header{
+    font-family: 'Lobster', cursive;
+}
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+.logo{
+    width: 80px;
+}
+#banner-img{
+   width: 100%;
+}
+nav, a, #banner-msg{
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color:#2f2f2f;
+}
+body {
+    background-color: grey; 
+}
+header {
+    background-color:white ;
+}
+.content{
+    max-width: 1600;
+    margin: 0 auto;
+}
+nav{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+} 
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #c8c8c8 ;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+    
+}
+nav a{
+    color: white;
+}
+nav:hover {
+    background-color: black;
+    color: white;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:rgba(20,30,13, .7);
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#sax {
+    display: grid;
+    margin-top: -100px; 
+}
+#banner-msg {
+    margin-top: 100px;
+}
+#sax-box{
+    z-index: -1;
+}
