@@ -88,3 +88,19 @@ header {
 #sax-box{
     z-index: -1;
 }
+#reed, #brand{
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: white;
+    border: 10px solid #bf0603;
+    text-align: left;
+}
+#heading2{
+    font-size:100px;
+    text-align: center;
+}
+#heading p{
+    text-align: center;
+    font-size: 30px;
+}
