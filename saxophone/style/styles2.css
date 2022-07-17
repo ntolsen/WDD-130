@@ -100,7 +100,7 @@ header {
     font-size:100px;
     text-align: center;
 }
-#heading p{
+#heading p, #contact{
     text-align: center;
     font-size: 30px;
 }
